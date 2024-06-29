@@ -1,0 +1,432 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header .number {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.78px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+@media (max-width: 991px) {
+  header .number {
+    font-size: 12px;
+    line-height: normal;
+  }
+}
+header button {
+  background: rgb(217, 217, 217);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  text-align: center;
+  padding: 4px 10px;
+  color: #000;
+}
+@media (max-width: 991px) {
+  header button {
+    font-size: 10px;
+    line-height: normal;
+  }
+}
+@media (max-width: 991px) {
+  header img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.blue-bg {
+  background: rgb(18, 35, 124);
+  padding-top: 65px;
+  padding-bottom: 110px;
+}
+.blue-bg .about-us {
+  background: rgba(248, 248, 248, 0.07);
+  padding-top: 39px;
+  padding-bottom: 95px;
+}
+.blue-bg .about-us h1 {
+  font-family: DM Sans;
+  font-size: 51.79px;
+  font-weight: 700;
+  line-height: 67.51px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin: 0px;
+}
+.blue-bg .about-us p {
+  font-family: DM Sans;
+  font-size: 19.23px;
+  font-weight: 400;
+  line-height: 25.07px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  margin: 0px;
+}
+@media (max-width: 991px) {
+  .blue-bg .about-us p {
+    font-size: 14px;
+    text-align: justify;
+  }
+}
+.blue-bg .finest {
+  padding-top: 100px;
+}
+.blue-bg .finest button {
+  background: rgb(255, 255, 255);
+  padding: 10px 20px;
+  font-family: DM Sans;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62.57px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: rgb(18, 35, 124);
+}
+@media (max-width: 991px) {
+  .blue-bg .finest button {
+    font-size: 24px;
+  }
+}
+.blue-bg .finest h6 {
+  padding-top: 26px;
+  margin: 0px;
+  font-family: DM Sans;
+  font-size: 19.23px;
+  font-weight: 400;
+  line-height: 25.07px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+}
+
+.grow-with-us {
+  padding-top: 57px;
+  padding-bottom: 121px;
+}
+.grow-with-us p {
+  font-family: Montserrat;
+  font-size: 19.14px;
+  font-weight: 500;
+  line-height: 21.05px;
+  letter-spacing: 0.16em;
+  text-align: left;
+  color: rgb(18, 35, 124);
+}
+@media (max-width: 991px) {
+  .grow-with-us p {
+    font-size: 16px;
+    line-height: normal;
+  }
+}
+.grow-with-us h2 {
+  font-family: DM Sans;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 71.24px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #000;
+  padding: 20px 0px;
+  margin: 0px;
+  padding-bottom: 50px;
+}
+@media (max-width: 991px) {
+  .grow-with-us h2 {
+    line-height: normal;
+    font-size: 34px;
+    padding: 10px 0px;
+  }
+}
+.grow-with-us .top button {
+  padding: 10px 20px;
+  border: 1px solid rgb(18, 35, 124);
+  font-family: DM Sans;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62.57px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: rgb(18, 35, 124);
+}
+@media (max-width: 991px) {
+  .grow-with-us .top button {
+    font-size: 32px;
+  }
+}
+.grow-with-us button {
+  background: rgb(255, 201, 10);
+  padding: 16px 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.grow-with-us button a {
+  font-family: Montserrat;
+  font-size: 17.28px;
+  font-weight: 500;
+  line-height: 23.5px;
+  letter-spacing: 0.14em;
+  color: rgb(18, 35, 124);
+  text-decoration: none;
+}
+
+.products-we-offer {
+  padding: 83px 0px;
+  background: rgb(18, 35, 124);
+}
+.products-we-offer p {
+  margin: 0px;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.4px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 39px;
+  color: #fff;
+}
+.products-we-offer button {
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(18, 35, 124);
+  font-family: DM Sans;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62.57px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: rgb(18, 35, 124);
+  padding: 5px 32px;
+}
+@media (max-width: 991px) {
+  .products-we-offer button {
+    font-size: 34px;
+    line-height: normal;
+  }
+}
+.products-we-offer img {
+  border: 10px solid rgb(255, 231, 183);
+}
+
+.certifications {
+  padding: 70px 0px;
+}
+.certifications button {
+  background: rgb(18, 35, 124);
+  border: 1px solid rgb(18, 35, 124);
+  font-family: DM Sans;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62.57px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  padding: 5px 40px;
+  margin-bottom: 75px;
+}
+@media (max-width: 991px) {
+  .certifications button {
+    margin-bottom: 50px;
+    font-size: 32px;
+  }
+}
+.certifications img {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.certifications h3 {
+  font-family: Montserrat;
+  font-size: 19.14px;
+  font-weight: 500;
+  line-height: 21.05px;
+  letter-spacing: 0.16em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  margin: 0px;
+  padding-top: 22px;
+}
+@media (max-width: 991px) {
+  .certifications h3 {
+    font-size: 16px;
+  }
+}
+@media (min-width: 991px) {
+  .certifications .img-box {
+    min-height: 487px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.yellow {
+  padding: 54px 0px;
+  background: rgb(255, 205, 108);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.why-dait {
+  padding: 70px 0px;
+}
+.why-dait h2 {
+  padding-bottom: 50px;
+  margin: 0px;
+  font-family: DM Sans;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 55.2px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #000;
+}
+.why-dait p {
+  font-family: DM Sans;
+  font-size: 19.23px;
+  font-weight: 400;
+  line-height: 25.07px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+.faq {
+  background-color: rgb(18, 35, 124);
+  padding: 50px 0px;
+}
+.faq button {
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(18, 35, 124);
+  font-family: DM Sans;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 55.2px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: rgb(18, 35, 124);
+  padding: 5px 40px;
+}
+@media (max-width: 991px) {
+  .faq button {
+    font-size: 28px;
+  }
+}
+.faq .accordion-item {
+  border: 1.47px solid rgb(255, 201, 10);
+  background: transparent !important;
+}
+.faq .accordion-button {
+  background: transparent;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 19.83px;
+  font-weight: 400;
+  line-height: 22.81px;
+  letter-spacing: 0.04em;
+  border: 1.47px solid rgb(255, 201, 10);
+  padding: 12px;
+}
+
+.form {
+  padding: 40px 0px;
+}
+.form .form-box {
+  background: #fff;
+}
+.form .form-box h2 {
+  margin: 0px;
+  color: #000;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 115%;
+  /* 55.2px */
+  letter-spacing: 1.92px;
+}
+.form .form-box p {
+  margin: 0px;
+  color: #000;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130.363%;
+  /* 25.069px */
+  letter-spacing: 0.769px;
+  padding-bottom: 30px;
+}
+.form .form-box label {
+  color: #000;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 19.23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130.363%;
+  /* 25.069px */
+  letter-spacing: 0.769px;
+}
+.form .form-box input {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.59);
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 19.23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130.363%;
+  /* 25.069px */
+  letter-spacing: 0.769px;
+  padding: 8px;
+}
+.form .form-box textarea {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.59);
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 19.23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130.363%;
+  /* 25.069px */
+  letter-spacing: 0.769px;
+}
+.form .form-box button {
+  background: rgb(255, 201, 10);
+  padding: 20px 50px;
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 17.279px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  /* 19.007px */
+  letter-spacing: 2.765px;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: rgb(18, 35, 124);
+}
+footer p {
+  margin: 0px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28.68px;
+  letter-spacing: 0.04em;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
