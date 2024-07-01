@@ -55,19 +55,22 @@ header button {
   font-family: DM Sans;
   font-size: 51.79px;
   font-weight: 700;
-  line-height: 67.51px;
   letter-spacing: 0.04em;
   text-align: center;
   color: rgb(255, 255, 255);
   margin: 0px;
 }
+@media (max-width: 991px) {
+  .blue-bg .about-us h1 {
+    font-size: 32px;
+  }
+}
 .blue-bg .about-us p {
   font-family: DM Sans;
-  font-size: 19.23px;
+  font-size: 16.23px;
   font-weight: 400;
-  line-height: 25.07px;
   letter-spacing: 0.04em;
-  text-align: center;
+  text-align: justify;
   color: #fff;
   margin: 0px;
 }
@@ -82,11 +85,10 @@ header button {
 }
 .blue-bg .finest button {
   background: rgb(255, 255, 255);
-  padding: 10px 20px;
+  padding: 5px 20px;
   font-family: DM Sans;
-  font-size: 48px;
+  font-size: 32px;
   font-weight: 500;
-  line-height: 62.57px;
   letter-spacing: 0.04em;
   text-align: center;
   color: rgb(18, 35, 124);
@@ -100,12 +102,16 @@ header button {
   padding-top: 26px;
   margin: 0px;
   font-family: DM Sans;
-  font-size: 19.23px;
+  font-size: 16.23px;
   font-weight: 400;
-  line-height: 25.07px;
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
+}
+@media (max-width: 991px) {
+  .blue-bg .finest h6 {
+    font-size: 14.23px;
+  }
 }
 
 .grow-with-us {
@@ -114,7 +120,7 @@ header button {
 }
 .grow-with-us p {
   font-family: Montserrat;
-  font-size: 19.14px;
+  font-size: 16.14px;
   font-weight: 500;
   line-height: 21.05px;
   letter-spacing: 0.16em;
@@ -123,43 +129,41 @@ header button {
 }
 @media (max-width: 991px) {
   .grow-with-us p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: normal;
   }
 }
 .grow-with-us h2 {
   font-family: DM Sans;
-  font-size: 52px;
+  font-size: 32px;
   font-weight: 700;
   line-height: 71.24px;
   letter-spacing: 0.04em;
   text-align: center;
   color: #000;
-  padding: 20px 0px;
   margin: 0px;
   padding-bottom: 50px;
 }
 @media (max-width: 991px) {
   .grow-with-us h2 {
     line-height: normal;
-    font-size: 34px;
+    font-size: 24px;
     padding: 10px 0px;
   }
 }
 .grow-with-us .top button {
-  padding: 10px 20px;
+  padding: 5px 20px;
   border: 1px solid rgb(18, 35, 124);
   font-family: DM Sans;
-  font-size: 48px;
+  font-size: 32px;
   font-weight: 500;
-  line-height: 62.57px;
   letter-spacing: 0.04em;
   text-align: center;
   color: rgb(18, 35, 124);
 }
 @media (max-width: 991px) {
   .grow-with-us .top button {
-    font-size: 32px;
+    font-size: 24px;
   }
 }
 .grow-with-us button {
@@ -170,7 +174,7 @@ header button {
 }
 .grow-with-us button a {
   font-family: Montserrat;
-  font-size: 17.28px;
+  font-size: 16.28px;
   font-weight: 500;
   line-height: 23.5px;
   letter-spacing: 0.14em;
@@ -198,9 +202,8 @@ header button {
   background: rgb(255, 255, 255);
   border: 1px solid rgb(18, 35, 124);
   font-family: DM Sans;
-  font-size: 48px;
+  font-size: 32px;
   font-weight: 500;
-  line-height: 62.57px;
   letter-spacing: 0.04em;
   text-align: center;
   color: rgb(18, 35, 124);
@@ -208,7 +211,7 @@ header button {
 }
 @media (max-width: 991px) {
   .products-we-offer button {
-    font-size: 34px;
+    font-size: 24px;
     line-height: normal;
   }
 }
@@ -223,19 +226,18 @@ header button {
   background: rgb(18, 35, 124);
   border: 1px solid rgb(18, 35, 124);
   font-family: DM Sans;
-  font-size: 48px;
+  font-size: 32px;
   font-weight: 500;
-  line-height: 62.57px;
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
   padding: 5px 40px;
-  margin-bottom: 75px;
+  margin-bottom: 25px;
 }
 @media (max-width: 991px) {
   .certifications button {
     margin-bottom: 50px;
-    font-size: 32px;
+    font-size: 24px;
   }
 }
 .certifications img {
@@ -243,9 +245,8 @@ header button {
 }
 .certifications h3 {
   font-family: Montserrat;
-  font-size: 19.14px;
+  font-size: 16.14px;
   font-weight: 500;
-  line-height: 21.05px;
   letter-spacing: 0.16em;
   text-align: center;
   color: rgb(0, 0, 0);
@@ -280,18 +281,16 @@ header button {
   padding-bottom: 50px;
   margin: 0px;
   font-family: DM Sans;
-  font-size: 48px;
+  font-size: 32px;
   font-weight: 500;
-  line-height: 55.2px;
   letter-spacing: 0.04em;
   text-align: left;
   color: #000;
 }
 .why-dait p {
   font-family: DM Sans;
-  font-size: 19.23px;
+  font-size: 16.23px;
   font-weight: 400;
-  line-height: 25.07px;
   letter-spacing: 0.04em;
   text-align: left;
   margin: 0px;
@@ -306,13 +305,12 @@ header button {
   background: rgb(255, 255, 255);
   border: 1px solid rgb(18, 35, 124);
   font-family: DM Sans;
-  font-size: 48px;
+  font-size: 32px;
   font-weight: 500;
-  line-height: 55.2px;
   letter-spacing: 0.04em;
   text-align: center;
   color: rgb(18, 35, 124);
-  padding: 5px 40px;
+  padding: 5px 20px;
 }
 @media (max-width: 991px) {
   .faq button {
@@ -424,9 +422,14 @@ footer p {
   margin: 0px;
   color: #fff;
   font-family: DM Sans;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 28.68px;
   letter-spacing: 0.04em;
   text-align: center;
+}
+@media (max-width: 991px) {
+  footer p {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=style.css.map */
