@@ -287,6 +287,11 @@ header button {
   text-align: left;
   color: #000;
 }
+@media (max-width: 991px) {
+  .why-dait h2 {
+    padding-bottom: 25px;
+  }
+}
 .why-dait p {
   font-family: DM Sans;
   font-size: 16.23px;

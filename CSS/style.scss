@@ -285,6 +285,9 @@ color: #000;
         letter-spacing: 0.04em;
         text-align: left;
         color: #000;
+        @media (max-width:991px) {
+            padding-bottom: 25px;
+        }
     }
 
     p {
