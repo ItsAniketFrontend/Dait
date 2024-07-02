@@ -11,6 +11,12 @@ header .number {
   line-height: 21.78px;
   text-align: center;
   color: rgb(0, 0, 0);
+  border: 1px solid #000;
+  padding: 4px 20px;
+}
+header .number a {
+  text-decoration: none;
+  color: #000;
 }
 @media (max-width: 991px) {
   header .number {
