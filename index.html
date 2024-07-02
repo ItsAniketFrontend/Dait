@@ -17,7 +17,7 @@
             <div class="d-flex justify-content-between align-items-center">
                 <span class="number">Call Us - +91-1143192000</span>
                 <img src="Images/nav-logo.png" width="141px" alt="">
-                <button>Select Language</button>
+                <button id="google_translate_element">Select Language</button>
             </div>
         </div>
     </header>
@@ -365,6 +365,17 @@
     </footer>
 
 
+    <!-- to your js part -->
+    <script src="script.js"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        } 
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
