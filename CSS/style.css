@@ -344,6 +344,10 @@ header button {
   padding: 12px;
 }
 
+button:hover {
+  background-color: transparent;
+}
+
 .form {
   padding: 40px 0px;
 }
